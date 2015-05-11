@@ -30,14 +30,15 @@ TEMPLATE_DIRS = (BASE_DIR+"/sb_admin2/example/",)
 # Application definition
 
 INSTALLED_APPS = (
-	'sb_admin2',
-	'bootstrap3',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'sb_admin2',
+    'bootstrap3',
+    
 )
 
 MIDDLEWARE_CLASSES = (
